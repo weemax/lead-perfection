@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lead-perfection"
+version = "1.0.0"
+description = "A collection of all LeadPerfection API methods"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Tyler Heist" }]
+keywords = ["leadperfection", "crm", "api", "client"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = ["requests"]
+
+[project.urls]
+Homepage = "https://github.com/weemax/lead-perfection"
+Source = "https://github.com/weemax/lead-perfection"
+Issues = "https://github.com/weemax/lead-perfection/issues"
+
+[tool.setuptools]
+packages = ["lead_perfection"]
